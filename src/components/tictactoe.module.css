@@ -1,0 +1,16 @@
+.container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 10px;
+  width: fit-content;
+  background-color: black;
+}
+.container > div {
+  background-color: white;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
